@@ -34,7 +34,7 @@ Python3 only and they requirement packages include but not only:
 
    这个脚本绘制了在测序质量检测中最重要的质量分布盒状图，原图
 
-   ![qualityboxplot_by_fastqc.png]([https://raw.githubusercontent.com/yangmqglobe/bioplot/master/image/qualityboxplot_by_fastqc.png)
+   ![qualityboxplot_by_fastqc.png](https://raw.githubusercontent.com/yangmqglobe/bioplot/master/image/qualityboxplot_by_fastqc.png)
 
    使用我的脚本绘制的图片
 
