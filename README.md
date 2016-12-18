@@ -41,3 +41,15 @@ Python3 only and they requirement packages include but not only:
    ![qualityboxplot_by_myscript.png](https://raw.githubusercontent.com/yangmqglobe/bioplot/master/image/qualityboxplot_by_myscript.png)
 
    整体视觉是差不多的，但是fastqc考虑到整体的效果，对中间的一些位置进行的合并，也即其并没有完全绘制出所有位置的质量效果。目前存在的问题是，如果reads输入很多，那么整个质量矩阵将非常大，那么首先内存可能就撑不住，可能处理上就会有问题。
+
+2. qualitylineplot.py
+
+   这个脚本绘制了质量分布的曲线图，原图如下
+
+   ![qualitylineplot_by_fastqc.png](https://raw.githubusercontent.com/yangmqglobe/bioplot/master/image/qualitylineplot_by_fastqc.png)
+
+   使用我的脚本绘制的图片
+
+   ![qualityboxplot_by_myscript.png](https://raw.githubusercontent.com/yangmqglobe/bioplot/master/image/qualitylineplot_by_myscript.png)
+
+   依然是几乎一致的视觉效果，同样也绘制了所有的位置，本身这个图和前面就一本是一致的。
